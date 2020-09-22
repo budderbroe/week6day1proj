@@ -1,0 +1,45 @@
+h1 {
+    border-bottom: 2px solid black;
+    width: 50px;
+    margin-left: 10%;
+}
+body {
+    background-color: #e0e0e0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+p {
+    margin: 0px;
+    padding: 10px;
+    flex-basis: 33%;
+}
+.item {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    margin: 0px 10% 15px 10%;
+    border-radius: 5px;
+    padding: 0;
+}
+#darkModeButton {
+    border: solid 2px black;
+    width: 15%;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+#darkModeButton :hover {
+    cursor: pointer;
+}
+.darkMode{
+    background-color: black;
+    color: white;
+}
+.darkMode .item {
+    background-color: grey;
+}
+.darkMode #darkModeButton {
+    border: 1px solid white;
+}
+.darkMode h1 {
+    border-bottom: 2px solid white;
+}
